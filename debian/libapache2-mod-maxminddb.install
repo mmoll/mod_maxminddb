@@ -1,2 +1,2 @@
-debian/mod-maxminddb.load /etc/apache2/mods-available
-debian/mod-maxminddb.conf /etc/apache2/mods-available
+debian/maxminddb.load /etc/apache2/mods-available
+debian/maxminddb.conf /etc/apache2/mods-available
