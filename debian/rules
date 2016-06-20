@@ -52,7 +52,7 @@ install: build
 	dh_testroot
 	dh_clean -k 
 	dh_installdirs
-	dh_install src/.libs/mod_dnssd.so `apxs2 -q LIBEXECDIR`
+	dh_install src/.libs/mod_maxminddb.so `apxs2 -q LIBEXECDIR`
 
 # Build architecture-independent files here.
 binary-indep: build install

@@ -1,0 +1,9 @@
+[Mon Jan 19 13:59:49.719574 2015] [mpm_prefork:notice] [pid 20234] AH00163: Apache/2.4.10 (Ubuntu) mod_perl/2.0.8 Perl/v5.20.1 configured -- resuming normal operations
+[Mon Jan 19 13:59:49.719659 2015] [mpm_prefork:info] [pid 20234] AH00164: Server built: Jul 25 2014 10:24:21
+[Mon Jan 19 13:59:49.719669 2015] [core:notice] [pid 20234] AH00094: Command line: '/usr/sbin/apache2 -d /home/greg/MaxMind/mod_maxminddb/t -f /home/greg/MaxMind/mod_maxminddb/t/conf/httpd.conf -D APACHE2'
+[Mon Jan 19 13:59:49.719675 2015] [mpm_prefork:debug] [pid 20234] prefork.c(995): AH00165: Accept mutex: sysvsem (default: sysvsem)
+[Mon Jan 19 13:59:50.836160 2015] [authz_core:debug] [pid 20236] mod_authz_core.c(828): [client 127.0.0.1:43381] AH01628: authorization result: granted (no directives)
+[Mon Jan 19 13:59:53.328889 2015] [:error] [pid 20236] [mod_maxminddb]: Error getting data for '2001:220::': The MaxMind DB file's data section contains bad data (unknown data type or corrupt data)
+[Mon Jan 19 13:59:53.328934 2015] [authz_core:debug] [pid 20236] mod_authz_core.c(828): [client 2001:220:::43382] AH01628: authorization result: granted (no directives)
+[Mon Jan 19 13:59:53.905461 2015] [core:info] [pid 20234] AH00096: removed PID file /home/greg/MaxMind/mod_maxminddb/t/logs/httpd.pid (pid=20234)
+[Mon Jan 19 13:59:53.905514 2015] [mpm_prefork:notice] [pid 20234] AH00169: caught SIGTERM, shutting down

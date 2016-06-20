@@ -2,7 +2,7 @@ Source: mod-maxminddb
 Section: web
 Priority: optional
 Maintainer: Michael Moll <kvedulv@kvedulv.de>
-Build-Depends: debhelper (>= 9.0.0), autotools-dev, apache2-prefork-dev | apache2-threaded-dev, libmaxminddb-dev (>= 1.1.5)
+Build-Depends: debhelper (>= 9.0.0), autotools-dev, apache2-dev, libmaxminddb-dev (>= 1.1.5)
 Standards-Version: 3.9.7
 
 Package: libapache2-mod-maxminddb
