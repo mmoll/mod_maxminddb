@@ -7,7 +7,7 @@ Standards-Version: 3.9.7
 
 Package: libapache2-mod-maxminddb
 Architecture: any
-Depends: ${shlibs:Depends}, apache2-common
+Depends: ${shlibs:Depends}, apache2
 Description: Apache 2 module which adds maxmind
  mod_dnssd is an Apache HTTPD module which adds geolocation support
  via maxmind.
