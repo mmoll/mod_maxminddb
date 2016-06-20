@@ -1,0 +1,5 @@
+mod-maxminddb (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #)
+
+ -- Michael Moll <kvedulv@kvedulv.de>  Fri, 17 Jun 2016 14:39:10 +0200

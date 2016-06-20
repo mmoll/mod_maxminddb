@@ -1,0 +1,14 @@
+Source: mod-maxminddb
+Section: web
+Priority: optional
+Maintainer: Michael Moll <kvedulv@kvedulv.de>
+Build-Depends: debhelper (>= 9.0.0), autotools-dev, apache2-prefork-dev | apache2-threaded-dev, libmaxminddb-dev (>= 1.1.5)
+Standards-Version: 3.9.7
+
+Package: libapache2-mod-maxminddb
+Architecture: any
+Depends: ${shlibs:Depends}, apache2-common
+Description: Apache 2 module which adds maxmind
+ mod_dnssd is an Apache HTTPD module which adds geolocation support
+ via maxmind.
+
