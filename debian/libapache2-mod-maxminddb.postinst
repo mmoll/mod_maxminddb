@@ -13,8 +13,8 @@ if [ -n "$2" ]; then
     exit 0
 fi
 
-if [ -e /etc/apache2/apache2.conf ]; then
-    /usr/sbin/a2enmod mod_maxminddb || true
-fi
+#if [ -e /etc/apache2/apache2.conf ]; then
+#    /usr/sbin/a2enmod mod_maxminddb || true
+#fi
 
 exit 0
